@@ -6,7 +6,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <title>Meet my Pets</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="finalproject.css">
 
 </head>
 <body>
@@ -20,14 +20,32 @@
         </button>
         </p>
     </div>
+    <div id ="modal1">
+        <p id="summary1"></p>
+        <p><button onclick="handleModal(document.getElementById('modal1'))">Close!
+        </button>
+        </p>
+    </div>
+    <div id ="modal2">
+        <p id="summary2"></p>
+        <p><button onclick="handleModal(document.getElementById('modal2'))">Close!
+        </button>
+        </p>
+    </div>
+    <div id ="modal3">
+        <p id="summary3"></p>
+        <p><button onclick="handleModal(document.getElementById('modal3'))">Close!
+        </button>
+        </p>
+    </div>
         <div class ="picture-container">
             <div onclick="handleModal(document.getElementById('modal'))"><img src="Lexi.jpg"></div>
-            <div onclick="handleModal(document.getElementById('modal'))"><img src="Miggy.jpg"></div>
-            <div onclick="handleModal(document.getElementById('modal'))"><img src="Kj.jpg"></div>
-            <div onclick="handleModal(document.getElementById('modal'))"><img src="Mimi.jpg"></div>
+            <div onclick="handleModal(document.getElementById('modal1'))"><img src="Miggy.jpg"></div>
+            <div onclick="handleModal(document.getElementById('modal2'))"><img src="Kj.jpg"></div>
+            <div onclick="handleModal(document.getElementById('modal3'))"><img src="Mimi.jpg"></div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="finalproject.js"></script>
 </body>
 
 
