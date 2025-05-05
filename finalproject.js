@@ -4,7 +4,7 @@ const babies = [
       name: "Lexi",
       breed: "Pitbull",
       age: 8,
-      lifestory:" Baby Lexi is the youngest and she is my younger older brother's dog, he brought her on a whim. She is still with us today and even though PitBulls get a bad rep she is such a loveBug. She was the only one friendly towards people, her cousins would try to fight anybody bigger than them. Though I believe she has been super depressed and lonely because she lost her cousins :( No one is here to yell at her anymore. Fun Fact even though she is my brother's dog I named her after Lexie from Grey's Anatomy. ",
+      lifestory:" Baby Lexi is the youngest and she is my younger older brother's dog, he brought her on a whim. She is still with us today and even though PitBulls get a bad rep she is such a loveBug. She was the only one friendly towards people, her cousins(excluding Mimi) would try to fight anybody bigger than them. Though I believe she has been super depressed and lonely because she lost her cousins :( No one is here to yell at her anymore. Fun Fact even though she is my brother's dog I named her after Lexie from Grey's Anatomy. ",
       summary: function(){
         return `Name: ${this.name}\nBreed: ${this.breed}\nAge: ${this.age}\nLife Story: ${this.lifestory}`;
     }
