@@ -1,0 +1,63 @@
+#modal{
+    position: fixed; 
+    top: 150px; 
+    left: 50px; 
+    height: 75%; 
+    width: 90%; 
+    background-color: rgba(238, 112, 252, 0.816); 
+    z-index: 1; 
+    display: none; 
+  }
+
+#summary{
+    margin:50px;
+    background-color: aliceblue;
+}
+
+button { 
+    background-color: blue;
+    border-radius: 3px; 
+    border: 2px solid var(--color-1); 
+    padding: 5px; 
+    margin: 10px;
+    
+    }
+
+body{
+    background-color: black;
+}
+
+.pets {
+    width: 80%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: blueviolet;
+    box-shadow:  10px 10px 5px black;
+}
+
+
+.picture-container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    height: 700px
+}
+.picture-container > div{
+    background-color: aliceblue;
+    color: black;
+    padding: 10px;
+}
+.picture-container > div > img{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+}
+
+.picture-container > div:hover{
+    background-color: beige;
+    cursor: pointer;
+}

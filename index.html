@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Meet my Pets</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class = "pets">
+        <h1 class="introduction">Hello, meet my animals</h1>
+    </div>
+
+    <div id ="modal">
+        <p id="summary"></p>
+        <p><button onclick="handleModal(document.getElementById('modal'))">Close!
+        </button>
+        </p>
+    </div>
+        <div class ="picture-container">
+            <div onclick="handleModal(document.getElementById('modal'))"><img src="Lexi.jpg"></div>
+            <div onclick="handleModal(document.getElementById('modal'))"><img src="Miggy.jpg"></div>
+            <div onclick="handleModal(document.getElementById('modal'))"><img src="Kj.jpg"></div>
+            <div onclick="handleModal(document.getElementById('modal'))"><img src="Mimi.jpg"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+</html>
